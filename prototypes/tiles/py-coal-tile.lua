@@ -5,13 +5,13 @@ RECIPE {
     enabled = false,
     ingredients = {
         {type = "item", name = "coal", amount = 2}, --ash, 2
-        {type = "item", name = "raw-wood", amount = 10} --tailings-dust, 10,
+        {type = "item", name = "wood", amount = 10} --tailings-dust, 10,
     },
     results = {
         {"py-coal-tile", 1}
     },
     requester_paste_multiplier = 4
-}:add_unlock("py-asphalt"):replace_ingredient("coal", "ash"):replace_ingredient("raw-wood", "tailings-dust")
+}:add_unlock("py-asphalt"):replace_ingredient("coal", "ash"):replace_ingredient("wood", "tailings-dust")
 
 ITEM {
     type = "item",

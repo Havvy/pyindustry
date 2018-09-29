@@ -4,7 +4,7 @@ RECIPE {
     category = "crafting",
     enabled = true,
     ingredients = {
-        {type = "item", name = "raw-wood", amount = 3}
+        {type = "item", name = "wood", amount = 3}
     },
     results = {
         {"poorman-wood-fence", 1}
@@ -42,7 +42,7 @@ ENTITY {
     vehicle_impact_sound = {filename = "__base__/sound/car-stone-impact.ogg", volume = 1.0},
     connected_gate_visualization = {filename = "__core__/graphics/arrows/underground-lines.png", priority = "high", width = 64, height = 64, scale = 0.5},
     wall_diode_green = {
-        filename = "__base__/graphics/entity/gate/wall-diode-green.png",
+        filename = "__base__/graphics/entity/wall/wall-diode-green.png",
         width = 21,
         height = 22,
         shift = {0, -0.78125}
@@ -55,7 +55,7 @@ ENTITY {
         intensity = 0.3
     },
     wall_diode_red = {
-        filename = "__base__/graphics/entity/gate/wall-diode-red.png",
+        filename = "__base__/graphics/entity/wall/wall-diode-red.png",
         width = 21,
         height = 22,
         shift = {0, -0.78125}
